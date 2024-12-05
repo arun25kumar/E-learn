@@ -1,0 +1,443 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 60px;
+}
+.nav-items{
+     border: none;
+     outline: none;
+     background-color: white;
+     font-size: medium;
+     padding: 8px;
+}
+.elearn{
+    padding-left: 5px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    gap: 60px;
+}
+.register{
+    display: flex;
+    gap: 40px;
+   
+
+}
+.login,.signup{
+    border: none;
+    outline: none;
+    background-color: white;
+    font-size: medium;
+    padding: 8px;
+
+   
+}
+.login:hover{
+    padding: 8px;
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
+    
+}
+.signup:hover{
+    padding: 8px;
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
+
+    
+}
+
+.nav-items:hover{
+    padding: 8px;
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
+
+}
+
+ .page2{
+    background-image: url(../img/black-white-portrait-digital-nomads.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px 60px;
+    border-radius: 20px;
+    height: 80vh;
+    
+ }
+
+.page2-content{
+ position: absolute;
+ top: 250px;
+ left: 110px;
+ width: 350px;
+ color: white;
+}
+.search{
+   width: 250px;
+   height: 45px;
+   outline: none;
+   float: left;
+   border: none;
+   border-radius: 6px 0px 0px 6px;
+   padding-left: 10px;
+}
+.submit{
+    width: 60px;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius:  0px 6px 6px 0px;
+    color: white;
+    background-color: blue;
+}
+.page2-title{
+    padding-top: 30px;
+}
+.page2-search{
+    padding-top: 30px;
+ 
+}
+.page2-h1{
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-size: xx-large;
+    line-height: 45px;
+}
+.page2-para{
+    letter-spacing: 0.5px;
+    line-height: 20px;
+}
+.spc,.ens,.exi{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.page3{
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    margin-top: 70px;
+
+
+}
+.spclogo{
+   
+    font-size: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;   
+    padding: 25px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.sc{
+    font-size: medium;
+    font-family: sans-serif;
+}
+.page3-h1{
+    font-family: sans-serif;
+}
+.line{
+    width: 100px;
+    border: 2px solid blue;
+   
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    color: rgb(33, 102, 230);
+}
+.allcourses{
+    outline: none;
+    border: none;
+    background-color: white;
+    border: 3px solid rgb(33, 102, 230);
+    padding: 10px;
+    border-radius: 10px;
+    margin-right:40px;
+    color: rgb(33, 102, 230);
+}
+ .page4{
+    display: flex;
+    margin-left:  80px;
+    margin-top: 90px;
+    margin-bottom: 35px;
+    margin-right: 70px;
+
+
+    justify-content: space-between;
+
+ }
+.image{
+    position: relative;
+}
+.money{
+    position: absolute;
+   left: 360px;
+   top: 260px;
+    border: 2px solid blue;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+}
+.rating{
+    display: inline;
+}
+.parent{
+    width: 400px;
+    height: 500px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.imgs{
+    width: 400px;
+    height: 270px;
+    border-radius: 15px 15px 0px 0px;
+
+}
+.title{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.star{
+    display: flex;
+   justify-content: space-between;
+}
+.hr{
+    margin: 10px ;
+
+}
+.last{
+    display: flex;
+    margin: 30px;
+    justify-content: space-evenly;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 40px;
+}
+.parent1{
+   margin-top: 30px;
+}
+.parentfind{
+    display: flex;
+    background-color: rgb(236,241,249);
+    padding-bottom: 90px;
+}
+.frist{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px;
+    align-items: center;
+}
+.find{
+    width: 600px;
+    padding-left: 90px;
+    margin-top: 100px;
+}
+.second{
+    display: flex;
+    gap: 10px;
+}
+.h1{
+    letter-spacing: 0.5px;
+}
+.lorem{
+    line-height: 30px;
+    font-family: sans-serif;
+}
+.getstared{
+    margin-top: 30px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    outline: none;
+    border: none;
+    border: 2px solid blue;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+.video1{
+    border-radius: 30px;
+    margin-left: 150px;
+    margin-top: 70px;
+   
+    border: 5px solid transparent;
+}
+.parentpage5{
+    display: flex;
+    padding: 60px;
+}
+.page5-1{
+    margin-left: 90px;
+}
+.icons{
+    display: flex;
+}
+.starnav{
+    display: flex;
+    
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.lorem2{
+    padding-top: 30px;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+    width: 750px;
+}
+
+.ico{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.icons{
+    margin-top: 40px;
+}
+.icon{
+    border: 20px solid blue;
+    border-radius: 50%;
+    background-color: blue;
+
+}
+   .navs{
+    display: flex;
+    gap: 20px;
+    padding-right: 80px;
+    font-size: xx-large;   
+   }
+ .imgg{
+    border-radius: 25px;
+ }
+ .onne{
+    width: 400px;
+    height: 500px;
+    border: 2px solid transparent;
+    border-radius: 20px 20px 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+ }
+ .star1{
+    padding-left: 30px;
+    padding-top: 20px;
+ }
+ .im{
+    width: 400px;
+    border-radius: 20px 20px 0px 0px;
+ }
+ .ap{
+    margin-top: 20px;
+ }
+.lo{
+    margin-top: 20px;
+}
+.rm{
+    margin-top: 20px;
+    color: blue;
+}
+.aru{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    padding: 0px;
+    padding-bottom: 70px;
+}
+.all{
+    margin-left: 30px;
+}
+
+.aroe{
+    display: flex;
+    gap: 20px;
+    padding-right: 140px;
+    font-size: xx-large;
+    padding-top: 0px;
+    
+}
+.fam{
+    background-color: rgb(236,241,249);
+   
+}
+.last-page{
+    width: 1100px;
+    text-align: center;
+    padding: 50px;
+    padding-left: 500px;
+      /* justify-content: center; */
+  }
+  .sub{
+    padding-top: 20px;
+  }
+  .last-para{
+    padding-top: 30px;
+
+  }
+  .search1{
+    float: left;
+    border: 2px solid transparent;
+  
+    width: 300px;
+    height: 50px;
+    border-radius: 15px 0px 0px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+  }
+  .button1{
+    float: left;
+    width: 80px;
+    height: 50px;
+    border-radius: 0px 15px 15px 0px;
+    border: 2px solid transparent;
+    box-shadow: rgba(240, 238, 238, 0.35) 0px 5px 15px;
+    background-color: rgb(33, 102, 230);
+    color: white;
+  
+  }
+  .both{
+    margin-top: 30px;
+    margin-left: 50px;
+  }
+ .fin{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ }
+ .final{
+    background-color: rgb(236,241,249);
+    display: flex;
+    gap: 140px;
+    justify-content: center;
+    margin-top: 80px;
+    padding: 80px 0px;
+ }
+ .inline{
+    display: inline;
+    
+ }
+ .do{
+    padding-top: 30px;
+ }
+ .ion{
+    padding-top: 30px;
+ }
+ .search1{
+    padding-left: 10px;
+ }
